@@ -1,0 +1,8 @@
+{
+  "name": "wellforge-website",
+  "private": true,
+  "description": "WellForge marketing and support site",
+  "scripts": {
+    "start": "npx --yes serve -l 8787"
+  }
+}

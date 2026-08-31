@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Support — WellForge</title>
+  <meta name="description" content="Contact WellForge support at support@wellforge.app." />
+  <meta name="theme-color" content="#0B1220" />
+  <link rel="icon" href="../assets/favicon.png" />
+  <link rel="stylesheet" href="../css/site.css" />
+</head>
+<body data-page="support">
+  <header id="site-header" class="site-header"></header>
+  <main class="wrap legal">
+    <p class="kicker" style="margin-top:48px">Support</p>
+    <h1>How can we help?</h1>
+    <p class="lede">
+      Email <a href="mailto:support@wellforge.app">support@wellforge.app</a>
+      or send a note with the form. Typical replies cover logging, steps, backups, and store installs.
+    </p>
+
+    <div class="card" style="margin:24px 0">
+      <form id="support-form">
+        <div>
+          <label for="name">Name</label>
+          <input id="name" name="name" autocomplete="name" required />
+        </div>
+        <div>
+          <label for="email">Your email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required />
+        </div>
+        <div>
+          <label for="topic">Topic</label>
+          <select id="topic" name="topic">
+            <option>General</option>
+            <option>Food logging / barcodes</option>
+            <option>Macros &amp; goals</option>
+            <option>Workouts</option>
+            <option>Steps / pedometer</option>
+            <option>Backup, export, delete data</option>
+            <option>Android / iOS install</option>
+            <option>Bug report</option>
+          </select>
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" required placeholder="What happened, and what did you expect?"></textarea>
+        </div>
+        <button class="btn btn-primary" type="submit">Email support@wellforge.app</button>
+        <p id="form-status" class="status" role="status"></p>
+      </form>
+    </div>
+
+    <h2>Before you write</h2>
+    <ul>
+      <li>Food not in the list: search by brand, scan a barcode, or create a custom food.</li>
+      <li>Steps stuck at zero: Profile → Health / steps → allow activity permission, or type today’s count.</li>
+      <li>Want a clean slate: export a backup first, then Profile → Delete all local data.</li>
+    </ul>
+    <p class="muted">We do not provide medical advice. For diet or training changes, talk with your physician.</p>
+  </main>
+  <footer id="site-footer"></footer>
+  <script src="../js/site.js"></script>
+</body>
+</html>
