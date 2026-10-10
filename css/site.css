@@ -168,3 +168,12 @@ textarea { min-height: 140px; resize: vertical; }
   .hero, .grid { grid-template-columns: 1fr; }
   .nav-links .hide-sm { display: none; }
 }
+
+/* Google Play badge (official artwork, includes built-in clear space; scale proportionally only) */
+.play-badge { display: inline-block; line-height: 0; }
+.play-badge img { height: 66px; width: auto; display: block; }
+.play-badge:hover { text-decoration: none; }
+.hero-play { margin-top: 12px; margin-left: -10px; }
+.play-note { margin: 2px 0 0 10px; font-size: 0.92rem; }
+.play-badge-footer img { height: 56px; }
+.trademark { font-size: 0.82rem; }

@@ -34,8 +34,10 @@ function injectChrome() {
             <a href="mailto:${SUPPORT_PUBLIC}">${SUPPORT_PUBLIC}</a><br />
             <a href="privacy.html">Privacy</a> · <a href="terms.html">Terms</a> · <a href="support.html">Support</a>
           </div>
+          <div><a class="play-badge play-badge-footer" href="https://play.google.com/store/apps/details?id=com.wellforge.app&amp;referrer=utm_source%3Dsite%26utm_medium%3Dorganic%26utm_campaign%3Dfooter" rel="noopener"><img src="assets/google-play-badge.png" alt="Get it on Google Play" width="646" height="250" /></a></div>
         </div>
         <p class="muted">Not medical advice. Consult your physician before changing diet or exercise.</p>
+        <p class="muted trademark">Google Play and the Google Play logo are trademarks of Google LLC.</p>
       </div>`;
   }
 }
